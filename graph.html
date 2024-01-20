@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vertical Navbar</title>
+    <style>
+        /* CSS for the vertical navbar container */
+        .navbar {
+            width: 200px; /* Adjust the width as needed */
+            background-color: #333;
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 50%;
+            overflow: auto;
+        }
+
+        /* CSS for the navbar links */
+        .navbar a {
+            margin-bottom:20px;
+            padding: 15px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 18px;
+            color: white;
+            display: block;
+            }
+
+        /* CSS for the navbar links on hover */
+        .navbar a:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#">PM-10</a>
+        <a href="#">PM-2.5</a>
+        <a href="#">NO<sub>2</sub></a>
+        <a href="#">SO<sub>2</sub></a>
+        <a href="#">NH<sub>3</sub></a>
+    </div>
+</body>
+</html>
